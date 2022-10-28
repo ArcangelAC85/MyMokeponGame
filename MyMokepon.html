@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./MyMokeponStyle.css">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="./src/img/fonts/favicon.ico">
+        <title>Mokepon World</title>   
+    </head>
+    
+    <body id="juego">
+        <section id="game-load">
+            <h1 id="title">Mokepon World! </h1>
+            
+            <label for="game-load">Bienvenido!</label>
+                <img src="./src/img/fonts/MokeponEarth.gif" alt="mokepon-world" height="500" width="500">
+            <label for="game-load">Es Hora de Jugar!</label>
+            
+            <p>
+                <button id="botton-game-load">Start</button>
+            </p>
+        </section>
+
+        <section id="player">
+            <h1 id="title">Mokepon World! </h1>
+            <img src="./src/img/fonts/MokeponEarth.gif" alt="mokepon-world" height="500" width="500">
+            <h2 id="sub-title">Selecciona a tu Jugador!</h2>
+            
+            <div class="card-player">
+                <label class="player-caracter" for="astronut">
+                    <p>Astronut</p>
+                    <img src="./src/img/players/Astronut1.jpg" alt="Astronut">
+                </label>
+                <input type="radio" name="player" id="astronut">
+                
+                <label class="player-caracter" for="bowei">
+                    <p>Bowei</p>
+                    <img src="./src/img/players/Bowei1.jpg" alt="Bowei">
+                </label>
+                <input type="radio" name="player" id="bowei">
+            
+                <label class="player-caracter" for="castler">
+                    <p>Castler</p>
+                    <img src="./src/img/players/Castler1.jpg" alt="Castler">
+                </label>
+                <input type="radio" name="player" id="castler">
+                
+                <label class="player-caracter" for="dafter">
+                    <p>Dafter</p>
+                    <img src="./src/img/players/Dafter1.jpg" alt="Dafter">
+                </label>
+                <input type="radio" name="player" id="dafter">
+                
+                <label class="player-caracter" for="mecatrin">
+                    <p>Mecatrin</p>
+                    <img src="./src/img/players/Mecatrin1.jpg" alt="Mecatrin">
+                </label>
+                <input type="radio" name="player" id="mecatrin">
+                
+                <label class="player-caracter" for="ralphie">
+                    <p>Ralphie</p>
+                    <img src="./src/img/players/Ralphie1.jpg" alt="Ralphie">
+                </label>
+                <input type="radio" name="player" id="ralphie">
+            </div>
+                
+            <p>
+                <button id="botton-player">Aceptar</button>
+            </p>
+        </section>
+            
+        <section id="mokepon-type">
+            <h1 id="title">Mokepon World! </h1>                
+            <h2 id="sub-title">Que tipo de Mokepon Quieres?</h2>
+
+            <div class="card-element">
+                <label class="element-water" for="agua">
+                    <p>Tipo Agua</p> 
+                    <img src="./src/img/fonts/Agua-removebg-preview.jpg" alt="logo-elemento-agua">
+                </label>
+                <input type="radio" name="type" id="agua">
+                
+                <label class="element-earth" for="tierra">
+                    <p>Tipo Tierra</p> 
+                    <img src="./src/img/fonts/Tierra-removebg-preview.jpg" alt="logo-elemento-tierra">
+                </label>
+                <input type="radio" name="type" id="tierra">
+                
+                <label class="element-fire" for="fuego">
+                    <p>Tipo Fuego</p>  
+                    <img src="./src/img/fonts/Fuego-removebg-preview.jpg" alt="logo-elemento-fuego">
+                </label>
+                <input type="radio" name="type" id="fuego">
+            </div>
+            
+            <p>
+                <button id="botton-type">Aceptar</button>
+            </p>                
+        </section>
+            
+        <section id="mokepon-agua">
+            <h1 id="title">Mokepon World! </h1>
+            <h2 id="sub-title">Mokepon tipo Agua</h2>
+            
+            <label for=" game-load">
+            <img src="./src/img/fonts/Agua-removebg-preview.jpg" height="400" width="400" alt="logo-elemento-agua">
+            </label>
+
+            <div class="card-water-mokepon">
+                <label class="mokepon-water" for="iced-fox">
+                    <p>Ice Fox</p> 
+                    <img src="./src/img/mokepones/Agua/IcedFox1.jpg" alt="mokepon-iced-fox">
+                </label>
+                <input type="radio" name="water" id="iced-fox">
+                
+                <label class="mokepon-water" for="frost-wolf">
+                    <p>Frost Wolf</p> 
+                    <img src="./src/img/mokepones/Agua/FrostWolf1.jpg" alt="mokepon-frost-wolf">
+                </label>
+                <input type="radio" name="water" id="frost-wolf">
+
+                <label class="mokepon-water" for="warrior-bear">
+                    <p>Warrior Bear</p> 
+                    <img src="./src/img/mokepones/Agua/WarriorBear1.jpg" alt="warrior-bear">
+                </label>
+                <input type="radio" name="water" id="warrior-bear">
+
+                <label class="mokepon-water" for="water-dragon">
+                    <p>Water Dragon</p> 
+                    <img src="./src/img/mokepones/Agua/WaterDragon1.jpg" alt="water-dragon">
+                </label>
+                <input type="radio" name="water" id="water-dragon">
+
+                <label class="mokepon-water" for="water-sphinx">
+                    <p>Water Sphinx</p> 
+                    <img src="./src/img/mokepones/Agua/WaterSphinx1.jpg" alt="water-sphinx">
+                </label>
+                <input type="radio" name="water" id="water-sphinx">
+
+                <label class="mokepon-water" for="wise-deer">
+                    <p>Wise Deer</p> 
+                    <img src="./src/img/mokepones/Agua/WiseDeer1.jpg" alt="wise-deer">
+                </label>
+                <input type="radio" name="water" id="wise-deer">
+            </div>
+
+            <p>
+                <button id="botton-mokepon-agua">Aceptar</button>
+            </p>  
+        </section>
+        
+        <section id="mokepon-tierra">
+            <h1 id="title">Mokepon World! </h1>
+            <h2 id="sub-title">Mokepon tipo Tierra</h2>
+            <label for=" game-load">
+            <img src="./src/img/fonts/Tierra-removebg-preview.jpg" height="400" width="400" alt="logo-elemento-tierra">
+            </label>
+
+            <div class="card-earth-mokepon">
+                <label class="mokepon-earth" for="armor-crow">
+                    <p>Armor Crow</p>
+                    <img src="./src/img/mokepones/Tierra/ArmorCrow1.jpg" alt="armor-crow">
+                </label>
+                <input type="radio" name="earth" id="armor-crow">
+
+                <label class="mokepon-earth" for="armor-mole">
+                    <p>Armor Mole</p>
+                    <img src="./src/img/mokepones/Tierra/ArmorMole1.jpg" alt="armor-mole">
+                </label>
+                <input type="radio" name="earth" id="armor-mole">
+
+                <label class="mokepon-earth" for="golem-giga">
+                    <p>Golem Giga</p>
+                    <img src="./src/img/mokepones/Tierra/GolemGiga1.jpg" alt="golem-giga">
+                </label>
+                <input type="radio" name="earth" id="golem-giga">
+                
+                <label class="mokepon-earth" for="grislie-bear">
+                    <p>Grislie Bear</p>
+                    <img src="./src/img/mokepones/Tierra/GrislieBear1.jpg" alt="grislie-bear">
+                </label>
+                <input type="radio" name="earth" id="grislie-bear">
+
+                <label class="mokepon-earth" for="tigueros">
+                    <p>Tigueros</p>
+                    <img src="./src/img/mokepones/Tierra/Tigueros1.jpg" alt="tigueros">
+                </label>
+                <input type="radio" name="earth" id="tigueros">
+
+                <label class="mokepon-earth" for="wise-mole">
+                    <p>Wise Mole</p>
+                    <img src="./src/img/mokepones/Tierra/WiseMole1.jpg" alt="wise-mole">
+                </label>
+                <input type="radio" name="earth" id="wise-mole">
+            </div>
+            
+            <p>
+                <button id="botton-mokepon-tierra">Aceptar</button>
+            </p>
+        </section>
+        
+        <section id="mokepon-fuego">
+            <h1 id="title">Mokepon World! </h1>
+            <h2 id="sub-title">Mokepon tipo Fuego</h2>
+            
+            <label for=" game-load">
+                <img src="./src/img/fonts/Fuego-removebg-preview.jpg" height="400" width="400" alt="logo-elemento-fuego">
+            </label>
+            
+            <div class="card-fire-mokepon">
+                <label class="mokepon-fire" for="boar-on-fire">
+                    <p>Boar On Fire</p>
+                    <img src="./src/img/mokepones/Fuego/BoarOnFire1.jpg" alt="boar-on-fire">
+                </label>
+                <input type="radio" name="fire" id="boar-on-fire">
+
+                <label class="mokepon-fire" for="dragonix">
+                    <p>Dragonix</p>
+                    <img src="./src/img/mokepones/Fuego/Dragonix1.jpg" alt="dragonix">
+                </label>
+                <input type="radio" name="fire" id="dragonix">
+
+                <label class="mokepon-fire" for="fenix">
+                    <p>Fenix</p>
+                    <img src="./src/img/mokepones/Fuego/Fenix1.jpg" alt="fenix">
+                </label>
+                <input type="radio" name="fire" id="fenix">
+
+                <label class="mokepon-fire" for="fire-lion">
+                    <p>Fire Lion</p>
+                    <img src="./src/img/mokepones/Fuego/FireLion1.jpg" alt="fire-lion">
+                </label>
+                <input type="radio" name="fire" id="fire-lion">
+
+                <label class="mokepon-fire" for="panti-karis">
+                    <p>Panti Karis</p>
+                    <img src="./src/img/mokepones/Fuego/PantiKaris1.jpg" alt="panti-karis">
+                </label>
+                <input type="radio" name="fire" id="panti-karis">
+
+                <label class="mokepon-fire" for="wolf-fang">
+                    <p>Wolf Fang</p>
+                    <img src="./src/img/mokepones/Fuego/WolfFang1.jpg" alt="wolf-fang">
+                </label>
+                <input type="radio" name="fire" id="wolf-fang">
+            </div>
+            
+            <p>
+                <button id="botton-mokepon-fuego">Aceptar</button>
+            </p>
+        </section>
+        
+        <section id="fonts">
+            <h1 id="title">Mokepon World! </h1>
+            <h2 id="sub-title">Selecciona un Mundo</h2>
+            
+            <label id="logo-agua" for="logo-agua">
+                <img src="./src/img/fonts/Agua-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-agua">
+            </label>
+
+            <div class="card-mundos-agua">
+                <label class="select-fonts" for="water1">
+                    <p>Water Dunes</p>
+                    <img src="./src/img/fonts/Water Dunes.jpg" alt="water-dunes">
+                </label>
+                <input type="radio" name="fonts" id="water1">
+            
+                <label class="select-fonts" for="water2">
+                    <p>Water Frozen</p>
+                    <img src="./src/img/fonts/Water Frozen.jpg" alt="water-frozen">
+                </label>
+                <input type="radio" name="fonts" id="water2">
+            
+                <label class="select-fonts" for="water3">
+                    <p>Water In Rocks</p>
+                    <img src="./src/img/fonts/Water in Rocks.jpg" alt="water-in-rocks">
+                </label>
+                <input type="radio" name="fonts" id="water3">
+            </div>
+                
+            <label for="logo-tierra">
+                <img src="./src/img/fonts/Tierra-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-tierra">
+            </label>
+
+            <div class="card-mundos-tierra">
+                <label class="select-fonts" for="earth1">
+                    <p>Earth Fallen</p>
+                    <img src="./src/img/fonts/Earth Fallen.jpg" alt="earth-fallen">
+                </label>
+                <input type="radio" name="fonts" id="earth1">
+                
+                <label class="select-fonts" for="earth2">
+                    <p>Earth in Ice</p>
+                    <img src="./src/img/fonts/Earth in Ice.jpg" alt="earth-in-ice">
+                </label>
+                <input type="radio" name="fonts" id="earth2">
+                
+                <label class="select-fonts" for="earth3">
+                    <p>Earth Nature</p>
+                    <img src="./src/img/fonts/Earth Nature.jpg" alt="earth-nature">
+                </label>
+                <input type="radio" name="fonts" id="earth3">
+            </div>
+            
+            <label for="logo-fuego">
+            <img src="./src/img/fonts/Fuego-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-fuego">
+            </label>
+
+            <div class="card-mundos-fuego">
+                <label class="select-fonts" for="fire1">
+                    <p>Desert Frozen Fire</p>
+                    <img src="./src/img/fonts/Desert Forzen Fire.jpg" alt="desert-frozen-fire">
+                </label>
+                <input type="radio" name="fonts" id="fire1">
+                
+                <label class="select-fonts" for="fire2">
+                    <p>Desert On Fire</p>
+                    <img src="./src/img/fonts/Desert On Fire.jpg" alt="desert-on-fire">
+                </label>
+                <input type="radio" name="fonts" id="fire2">
+                
+                <label class="select-fonts" for="fire3">
+                    <p>Desert</p>
+                    <img src="./src/img/fonts/Desert.jpg" alt="desert">
+                </label>
+                <input type="radio" name="fonts" id="fire3">
+            </div>
+                
+            <p>
+                <button id="botton-select-font">Aceptar</button>
+            </p>
+        </section>
+        
+        <section id="attack">
+            <h1 id="title">Mokepon World! </h1>
+            
+            <label for=" game-load">
+                <img src="./src/img/fonts/Agua-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-agua">
+                <img src="./src/img/fonts/Tierra-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-tierra">
+                <img src="./src/img/fonts/Fuego-removebg-preview.jpg" height="200" width="200" alt="logo-elemento-fuego">
+            </label>
+
+            <h2 id="sub-title">Elige un Ataque!</h2>
+
+            <div id="attack-buttons">
+                <button type="button" id="water"><img src="./src/img/fonts/Agua-removebg-preview.jpg" height="85" width="85" alt="logo-elemento-agua"> </button>
+                <button type="button" id="earth"><img src="./src/img/fonts/Tierra-removebg-preview.jpg" height="85" width="85" alt="logo-elemento-tierra"> </button>
+                <button type="button" id="fire"><img src="./src/img/fonts/Fuego-removebg-preview.jpg" height="85" width="85" alt="logo-elemento-fuego"> </button>
+            </div>
+
+            <div id="masages">
+                <p>👍Buena Suerte!👍</p>
+            </div>
+
+            <section id="reset">
+                <button id="reset-game">Reiniciar</button>
+            </section>
+                
+            <div class="jugadores">
+                <div id="player1">
+                    <p id="player-image"></p>
+                    <p id="player-caracter-name"></p>
+                    <p id="player-pet-image"></p>
+                    <p id="player-pet"></p>
+                    <p id="player-lives">3</p>
+                    <p id="player-attack-selected"></p>
+                </div>
+                
+                <div id="player2">
+                    <p id="enemies-image"></p>
+                    <p id="enemies-caracter-name"></p>
+                    <p id="enemies-pet-image"></p>
+                    <p id="enemies-pet"></p>
+                    <p id="enemies-lives">3</p>
+                    <p id="enemies-attack-selected"></p>
+                </div>
+            </div>
+            
+        </section> 
+    </body>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./MyMokeponCode.js"></script>
+</html>
